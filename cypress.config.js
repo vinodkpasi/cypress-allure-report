@@ -1,5 +1,6 @@
 const { defineConfig } = require("cypress");
 const allureWriter = require('@shelex/cypress-allure-plugin/writer');
+const execSync = require('child_process').execSync;
 const fs = require('fs');
 module.exports = defineConfig({
   e2e: {
