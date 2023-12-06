@@ -13,7 +13,7 @@ module.exports = defineConfig({
       on('after:run', (details) => {
         process.env['allureReportTitle'] = config.env.allureReportTitle;
         process.env['allureReportName'] = config.env.allureReportName;
- 	      execSync('npx allure generate allure-results --single-file --clean -o allure-report && node cypress/plugins/scriptwriter.js && npx allure open allure-report');
+execSync('npx allure generate allure-results --single-file --clean -o allure-report && node cypress/plugins/scriptwriter.js && npx allure open allure-report');
       })
       return config;
     },
