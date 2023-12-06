@@ -11,7 +11,9 @@ module.exports = defineConfig({
         fs.rmSync("allure-results", { recursive: true, force: true });
       })
       on('after:run', (details) => {
-        execSync('npx allure generate allure-results --single-file --clean -o allure-report allure-report && npx allure open allure-report');
+        process.env['allureReportTitle'] = config.env.allureReportTitle;
+        process.env['allureReportName'] = config.env.allureReportName;
+ 	      execSync('npx allure generate allure-results --single-file --clean -o allure-report &&  node cypress/plugins/scriptwriter.js && npx allure open allure-report');
       })
       return config;
     },
@@ -21,6 +23,8 @@ module.exports = defineConfig({
       allureAttachRequests: true,
       allureClearSkippedTests: false,
       allureAddVideoOnPass: false,
+      allureReportTitle:"DriveBuddyAI Report",
+      allureReportName:"DriveBuddyAI Report"
     },
   },
 });
