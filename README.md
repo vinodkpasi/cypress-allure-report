@@ -410,7 +410,7 @@ integrations rather than the deprecated standalone
 
 ## Useful Links
 
--   Repository: https://github.com/vinodkpasi/allurereport_mocha
+-   Repository: https://github.com/vinodkpasi/cypress-allure-report
 -   Cypress: https://www.cypress.io/
 -   Cypress Documentation: https://docs.cypress.io/
 -   Allure Report: https://allurereport.org/
