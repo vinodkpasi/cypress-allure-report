@@ -77,7 +77,7 @@ npm --version
 Clone the repository:
 
 ``` bash
-git clone https://github.com/vinodkpasi/allurereport_mocha.git
+git clone https://github.com/vinodkpasi/cypress-allure-report.git
 ```
 
 Navigate to the project:
@@ -147,8 +147,8 @@ env: {
   allureAttachRequests: true,
   allureClearSkippedTests: false,
   allureAddVideoOnPass: false,
-  allureReportTitle: "DriveBuddyAI Report",
-  allureReportName: "DriveBuddyAI Report"
+  allureReportTitle: "Test Report",
+  allureReportName: "Test Report"
 }
 ```
 
