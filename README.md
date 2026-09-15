@@ -12,10 +12,6 @@ The project uses `@shelex/cypress-allure-plugin` to collect test results
 and automatically generates a **single-file Allure HTML report** after
 the Cypress test run.
 
-> **Note:** Despite the repository name `allurereport_mocha`, this is a
-> **Cypress project**. Cypress uses Mocha as its test runner, while
-> Allure reporting is integrated through the Cypress Allure plugin.
-
 ## Features
 
 -   Cypress 12.14.0 end-to-end testing
