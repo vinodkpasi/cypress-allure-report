@@ -402,11 +402,6 @@ such as:
 -   Failure details
 -   Categorization and trends
 
-The official Allure JavaScript integrations include an `allure-mocha`
-integration as well as Cypress support through the JavaScript ecosystem.
-For new projects, prefer the currently maintained Allure JavaScript
-integrations rather than the deprecated standalone
-`mocha-allure-reporter` package.
 
 ## Useful Links
 
