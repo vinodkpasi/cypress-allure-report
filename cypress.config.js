@@ -23,8 +23,8 @@ execSync('npx allure generate allure-results --single-file --clean -o allure-rep
       allureAttachRequests: true,
       allureClearSkippedTests: false,
       allureAddVideoOnPass: false,
-      allureReportTitle:"DriveBuddyAI Report",
-      allureReportName:"DriveBuddyAI Report"
+      allureReportTitle:"Test Report",
+      allureReportName:"Test Report"
     },
   },
 });
