@@ -1,5 +1,5 @@
 {
-  "name": "allurereport_mocha",
+  "name": "cypress-allure-report",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
