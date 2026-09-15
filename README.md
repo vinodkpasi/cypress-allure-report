@@ -83,7 +83,7 @@ git clone https://github.com/vinodkpasi/cypress-allure-report.git
 Navigate to the project:
 
 ``` bash
-cd allurereport_mocha
+cd cypress-allure-report
 ```
 
 Install dependencies:
